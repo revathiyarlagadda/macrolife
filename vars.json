@@ -6,7 +6,32 @@
             "env": "DEV"
         }
     },
+    "network_watcher": {
+        "name": "macrolifenw"
+    },
     "ddos": {
         "inflate": false
+    },
+    "network": {
+        "vnet_address_space": "10.0.0.0/22",
+        "subnets" : {
+            "subnet1" : "10.0.0.0/24",
+            "subnet2" : "10.0.2.0/24"
+        }
+    },
+    "compute" : {
+        "vmname": "macrovm"
+    },
+    "governance":{
+        "rg_name" : "governance_rg",
+        "kv_name": "governnace_kv",
+        "secret_name": "vmpassword",
+        "secret_cert_name": "vm_cert"   
+    },
+    "storage":{
+        "storage_account_name" : "uniquename",
+        "account_tier": "Standard",
+        "account_kind" : "StorageV2",
+        "account_replication_type": "LRS"
     }
 }
