@@ -1,0 +1,12 @@
+{
+    "rg": {
+        "resource_group_name": "macrolife",
+        "region": "eastus2",
+        "tags": {
+            "env": "DEV"
+        }
+    },
+    "ddos": {
+        "inflate": false
+    }
+}
